@@ -1,0 +1,33 @@
+{
+  "name": "upstall",
+  "version": "1.0.0",
+  "description": "update pacakges with semver \"latest\" to latest version in package.json before npm install",
+  "preferGlobal": true,
+  "bin": "./bin/index.js",
+  "scripts": {
+    "upstall": "node ./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gemmi/upstall.git"
+  },
+  "files": [
+    "bin"
+  ],
+  "keywords": [
+    "update",
+    "latest",
+    "semver",
+    "pacakge.lock"
+  ],
+  "author": "gemmi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gemmi/upstall/issues"
+  },
+  "homepage": "https://github.com/gemmi/upstall#readme",
+  "dependencies": {
+    "colors": "^1.2.5",
+    "shelljs": "^0.8.2"
+  }
+}
